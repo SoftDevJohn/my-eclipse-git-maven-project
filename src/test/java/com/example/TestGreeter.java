@@ -10,6 +10,8 @@ import static org.junit.matchers.JUnitMatchers.containsString;
 
 /**
  * JUnit test class.
+ * This is a comment change that Ive made in Eclipse to experiment using GIT
+ * inside the Eclipse environment. This change was made at 14:08.
  *
  */
 public class TestGreeter {
