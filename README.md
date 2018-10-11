@@ -51,79 +51,20 @@ In the JUnit window, click the play button to run the tests.
 
 # Make a change and commit it to Git through Eclipse
 
-Make a change to a source file. For example make some change in com.example.TestGreeter.java
+Make a change to a source file.
 
-Window>Show View>Other>Git>Staging
-Drag TestGreeter.java from the Unstaged Changes window to the Stages Changes window
+*For example make some change in `com.example.TestGreeter.java`*
+
+Now open the Git Staging view as follows:
+
+`Eclipse > Window > Show View > Other > Git > Git Staging`
+
+Drag the TestGreeter.java from the `Unstaged Changes` window to the Stages Changes window
 Add comment to the Commit Message window.
 
->Commit and Push
->A message will appear saying thta it was pushed to origin.
+Then press the "`Commit and push`" button.
+
+
 
 Check on Github to ensure that the change was pushed at: https://github.com/SoftDevJohn/my-eclipse-git-maven-project/blob/master/src/test/java/com/example/TestGreeter.java.
-
-XXXXX Ok here
-
-In the Junit window, click the play button t run the tests.
-----
-
-
-
-
-
-
-
-xxxxx
-
-Open a new windows command shell.
-
-Change to the directory where you want the project to be created under.
-
-`cd \dev\`
-
-
-
-Checkout the repository by cloning it in the current directory:
-
-`git clone https://github.com/SoftDevJohn/my-simple-git-maven-project.git`
-
-The project is now cloned under the current directory as:
-
-`c:\dev\`
-
-​	`my-simple-got-maven-project`
-
-​	.`git`
-
-​	`docs`
-
-​	`src`
-
-​	.`gitignore`
-
-​	`pom`.xml
-
-
-
-# Build the project
-
-Change into the project directory:
-
-`cd ..\my-simple-git-maven-project`
-
-
-
-Build the project:
-
-`mvn package`
-
-
-
-# Run tests
-
-Run the maven tests by typing:
-
-`mvn tests`
-
-
 
