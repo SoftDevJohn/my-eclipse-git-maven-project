@@ -16,6 +16,10 @@ Next import the maven project from GIT
 
 `Eclipse>File>Import>Check out Maven Projects from SCM`
 
+Set the source control reference as:
+
+`SCM URL: git> https://github.com/SoftDevJohn/my-eclipse-git-maven-project.git`
+
 *Ensure "Check out Head Revision" and "Check out All Projects" are checked.*
 
 Click on `"Finish"`
@@ -31,9 +35,10 @@ Using File Explorer, renamed the project directory (e.g. `maven.1539259254695`) 
 Next restart Eclipse and open the project from the file system as: 
 
 `Eclipse > File > Open Projects from File System...`
+
 `Import source: C:\Users\John\TestProjects\MyWorkspace\MyEclipseGitMavenProject`
 
-
+Click in `Finish`.
 
 In package explorer, a yellow drum beside the project name should appear after the project is automatically built.
 
